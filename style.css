@@ -69,14 +69,17 @@ section{
     padding:60px 0;
 }
 .all-players {
-    width: 1015px;
+    width: 1098px;
     margin: 0 auto;
-        margin-left: auto;
+
+    display: flex;
+    justify-content: center;
+        
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 20px;
+    grid-column-gap: 25px;
     grid-row-gap: 20px;
-    margin-left: 78px;
+   
 }
 .player{
     width:312px;
