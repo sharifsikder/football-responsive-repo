@@ -348,8 +348,8 @@ textarea {
     }
 
     /* Mobile Devices  */
-
-@media only screen and (max-width:740px){
+ 
+    @media only screen and (max-width:740px){
         
 
         .top-section {
