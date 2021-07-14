@@ -352,7 +352,7 @@ textarea {
 
     /* Mobile Devices  */
  
-@media (max-width:740px){
+    @media only screen and (max-width: 740px){
         
 
       .top-section {
