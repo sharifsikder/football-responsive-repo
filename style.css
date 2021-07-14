@@ -37,10 +37,11 @@ body{
 .menu-section ul li a:hover{
     text-decoration: underline;
 }
+
 .top-section{
     background-color:#2D25A0;
     padding-top:20px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 .tob-bar{
@@ -89,12 +90,14 @@ body{
 .banner-section{
    display: flex;
    justify-content: space-around;
+
   
 }
 .football-image{
    width:556px;
    height:438px;
    text-align: right;
+   margin-top:50px
 }
 .football-image img:hover{
     width:87%;
@@ -349,7 +352,7 @@ textarea {
 
     /* Mobile Devices  */
  
-    @media only screen and (max-width: 740px){
+@media (max-width:740px){
         
 
       .top-section {
@@ -411,6 +414,18 @@ textarea {
             text-align: center;
         }
 
+ 
+
+        .all-players {
+            width: 100%;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-column-gap: 25px;
+            grid-row-gap: 20px;
+            margin-bottom: -20px;
+        }
+
    .player{
     margin: 0 auto;
     margin-left: 19px;
@@ -418,15 +433,7 @@ textarea {
     height: 475px;
 }
 
-.all-players {
-    width: 100%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-column-gap: 25px;
-    grid-row-gap: 20px;
-    margin-bottom: -20px;
-}
+
 
 
 .gallery-details {
