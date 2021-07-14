@@ -6,7 +6,7 @@
 body h1,h2,h3,h4,h5,h6{
     font-family: 'Nunito', sans-serif;
 }
-body p, a, span, ul{
+body p, a, span, ul, li{
     font-family: 'Nunito', sans-serif;
 }
 body{
@@ -15,24 +15,96 @@ body{
 }
 
 /* top-section */
+/* top bar */
+.menu-section ul{
+    display: flex;
+}
+.menu-section {
+    margin-top: -11px;
+}
+.menu-section ul li{
+    list-style:none;
+    margin-left: 36px;
+}
+.menu-section ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color:#fff;
+   
+}
 
+.menu-section ul li a:hover{
+    text-decoration: underline;
+}
 .top-section{
     background-color:#2D25A0;
-    padding-top:100px;
+    padding-top:20px;
     padding-bottom: 40px;
+}
+
+.tob-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.button1 {
+    background-color: #E02C6D;
+    display: inline-block;
+    padding: 10px 24px 10px 24px;
+    border-radius: 5px;
+    transition: .5s;
+    margin-right: 112px;
+    margin-bottom: 34px;
+    margin-top: 21px;
+}
+.button1 a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 1s;
+    
+  
+}
+.button1:hover a{
+    margin-right: 13px;
+}
+.login a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 3px;
+    font-weight: 500;
+}
+.logo-image{
+    display: inline-block;
+}
+.logo-image img {
+    width: 25px;
+    margin-bottom: -7px;
 }
 .banner-section{
    display: flex;
    justify-content: space-around;
-   align-items: ;
+  
 }
 .football-image{
    width:556px;
    height:438px;
    text-align: right;
 }
+.football-image img:hover{
+    width:87%;
+    transform: rotate(3deg);
+    transition:width 1s, transform 1s;
+}
+
 .football-image img{
     width:80%;
+    transition: 1s;
 }
 .football-title h1{
     font-size: 64px;
@@ -44,16 +116,19 @@ body{
 .button{
     background-color: #E02C6D;
     display: inline-block;
-    padding:10px 24px;
+    padding:10px 24px 10px 24px;
+    border-radius: 5px;
+    transition: .5s;
    
 
 }
 .button a{
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 700;
     color: #fff;
     text-decoration: none;
     margin-top:-10px;
+    transition:.5s
     
     
 }
@@ -61,7 +136,15 @@ body{
 
     color:white;
     margin-left:6px;
+    font-size: 15px;
  
+}
+.button:hover {
+    padding:10px 24px 10px 24px;
+   
+}
+.button:hover a{
+    margin-left: 13px;
 }
 
  /* all players section */
@@ -83,7 +166,7 @@ section{
 }
 .player{
     width:312px;
-    height: 440px;
+    height: 445px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     padding:20px 20px 0px 20px;
     border-radius: 10px;
