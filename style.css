@@ -347,3 +347,39 @@ textarea {
         font-size: 20px;
         font-weight: 700;
     }
+
+    /* Mobile Devices  */
+    @media only screen and (max-width:768px){
+
+        .tob-bar{
+            display: none;
+        }
+        .banner-section{
+            display: block;
+        }
+
+        .football-title h1 {
+            font-size: 43px;
+            margin-bottom: 33px;
+            text-align: center;
+        }
+
+        .button {
+            background-color: #E02C6D;
+            display: block;
+            padding: 10px 24px 10px 24px;
+            border-radius: 5px;
+            transition: .5s;
+            margin: 0 auto;
+            width: 32%;
+            margin-bottom:67px;
+        }
+
+        
+
+    .football-image {
+    width: 418px;
+    height: 291px;
+    text-align: center;
+}
+    }
