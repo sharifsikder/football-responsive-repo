@@ -373,7 +373,7 @@ textarea {
         .button {
             background-color: #E02C6D;
          
-            padding: 22px 24px 10px 24px;
+            padding: 22px 17px 10px 20px;
             border-radius: 5px;
             transition: .5s;
             margin: 0 auto;
@@ -384,7 +384,7 @@ textarea {
             align-items: center;
         }
         .button a{
-            font-size: 16px;
+            font-size: 14px;
             transition: .5s;
         }
 
@@ -392,7 +392,7 @@ textarea {
             margin-left: 8px;
         }
         .button:hover{
-            padding: 22px 24px 10px 24px;
+            padding: 22px 17px 10px 20px;
         }
         
 
@@ -415,6 +415,7 @@ textarea {
     margin: 0 auto;
     margin-left: 19px;
     width: 281px;
+    height: 460px;
 }
 
 
