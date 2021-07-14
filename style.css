@@ -219,7 +219,7 @@ section{
 
 .gallery-images img:hover{
 
-    transform: scale(1.1);
+    transform: scale(1.06);
    
     transition: transform 1s ease-out;
 }
