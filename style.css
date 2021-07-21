@@ -409,8 +409,8 @@ textarea {
         
 
         .football-image {
-            width: 359px;
-            height: 291px;
+            width: 94%;
+            height: 94%;
             text-align: center;
             
         }
@@ -429,9 +429,8 @@ textarea {
 
      .player{
       margin: 0 auto;
-      margin-left: 19px;
-      width: 281px;
-      height: 475px;
+      width: 81%;
+      height: 92%;
       padding-bottom: 20px;
        }
 
@@ -509,7 +508,7 @@ textarea {
        .icon ul {
            display: flex;
            justify-content: center;
-           margin-left: ;
+       
            margin-top: 0px;
        }
        .footer-section {
@@ -530,7 +529,6 @@ textarea {
        .copyright p {
            font-size: 17px;
            font-weight: 700;
-           /* margin-left: -133px; */
            color: gray;
        }
        
